@@ -1,0 +1,20 @@
+export default {
+  translation: {
+    username: "Username",
+    password: "Password",
+    dateinp: "Enter your date of birth",
+    selLang: "Select your language:",
+    opt1: "Russian",
+    opt2: "English",
+    opt3: "French",
+    opt4: "German",
+    opt5: "Spanish",
+    subscribe: "Subscribe:",
+    radio1: "Yes",
+    radio2: "No",
+    submit: "login",
+    message: "Not registered?",
+    create: "Create an account",
+    changeLang: "change language",
+  },
+};

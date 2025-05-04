@@ -1,0 +1,100 @@
+.message {
+  font-size: 14px;
+  margin: 24px 0 0 0;
+  text-align: center;
+}
+.sbmbtn:active {
+  background: #21b1fd;
+}
+
+.sbmbtn:hover,
+.sbmbtn:focus {
+  background: #21a2fd;
+  transform: scale(1.05);
+}
+
+.sbmbtn {
+  text-transform: uppercase;
+  background: #2190fd;
+  color: white;
+  width: 100%;
+  border: 0;
+  padding: 16px;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 16px 0 0 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.form-input:focus {
+  background: #ddeeff;
+}
+
+.form-input {
+  background: #f2f2f2;
+  width: 100%;
+  border: 1px solid#222;
+  outline: none;
+  margin: 8px 0 16px 0;
+  padding: 16px;
+  transition: background 0.2s ease-out;
+}
+
+.login-form {
+  background: white;
+  max-width: 400px;
+  margin: 15vh auto;
+  padding: 40px;
+}
+
+p {
+  color: #2190fd;
+  text-decoration: none;
+  font-size: 14px;
+  text-align: center;
+}
+
+body {
+  background: #20b2aa;
+  margin: 0;
+  border: 1px transparent solid;
+  overflow: hidden;
+  height: 100vh;
+}
+
+body,
+button,
+input {
+  font-family: "Roboto", sans-serif;
+  color: #222;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#btn:hover,
+#btn:focus {
+  background: #21a2fd;
+  transform: scale(1.05);
+}
+
+#btn {
+  background: rgba(214, 212, 212, 0.582);
+  color: gray;
+  border: 0;
+  padding: 12px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  display: flex;
+  margin-left: auto;
+}
+
+#selLang {
+  margin: 4px 0 2px 0;
+}
+
+#subscribe {
+  margin: 16px 0 2px 0;
+}

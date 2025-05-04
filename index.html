@@ -1,0 +1,58 @@
+<!
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Form with animation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <button id="btn"></button>
+
+    <form class="login-form">
+      <label id="usname" for="usname">Username</label>
+      <input class="form-input" id="usname" type="text" />
+
+      <label id="psw" for="psw">Password</label>
+      <input class="form-input" id="psw" type="password" />
+
+      <label id="dateinp" for="dateinp">Enter your date of birth</label>
+      <input class="form-input" id="brthdate" type="date" />
+
+      <div id="selLang"><label id="selLang">Select your language:</label></div>
+      <select name="select-one-of" style="width: 200px">
+        <option value="ru">Russian</option>
+        <option value="en">English</option>
+        <option value="fr">French</option>
+        <option value="gr">German</option>
+        <option value="sp">Spanish</option>
+      </select>
+
+      <div id="subscribe">
+        <label id="subscribe" for="subscribe">Subscribe:</label>
+      </div>
+      <input type="radio" value="Yes" name="one-of-smb" checked />
+      <label id="radio1" for="radio1">Yes</label><br />
+      <input type="radio" value="No" name="one-of-smb" />
+      <label id="radio2" for="radio2">No</label><br />
+
+      <button class="sbmbtn" type="submit">login</button>
+
+      <p class="message">Not registered?</p>
+      <p><a href="#">Create an account</a></p>
+    </form>
+
+    <script
+      async
+      src="https://unpkg.com/i18next@23.15.2/dist/umd/i18next.min.js"
+    ></script>
+    <script type="module" src="./js/i18n.js"></script>
+    <script
+      async
+      src="https://cdnjs.cloudflare.com/ajax/libs/date-fns/4.1.0/cdn.min.js"
+    ></script>
+    <script type="module" src="./js/script.js"></script>
+  </body>
+</html>
