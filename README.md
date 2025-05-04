@@ -17,6 +17,6 @@
 3. Откройте index.html в браузере
 
 Подключение к Интернету необходимо для загрузки:
-CDN i18next
-CDN date‑fns
-шрифта Roboto (Google Fonts)
+CDN i18next,
+CDN date‑fns,
+шрифта Roboto (Google Fonts).
